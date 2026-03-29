@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <!-- Background -->
+  <circle cx="300" cy="300" r="290" fill="#f9f4ec" stroke="#ddd" stroke-width="4"/>
+
+  <!-- Atomic Orbits -->
+  <ellipse cx="300" cy="300" rx="200" ry="90" stroke="#555" stroke-width="2.5" fill="none"/>
+  <ellipse cx="300" cy="300" rx="90" ry="200" stroke="#555" stroke-width="2.5" fill="none"/>
+  <ellipse cx="300" cy="300" rx="160" ry="160" stroke="#555" stroke-width="2.5" fill="none"/>
+
+  <!-- Orbiting Nodes -->
+  <circle cx="500" cy="300" r="12" fill="#ef4444"/>
+  <circle cx="100" cy="300" r="12" fill="#22c55e"/>
+  <circle cx="300" cy="100" r="12" fill="#f59e0b"/>
+  <circle cx="300" cy="500" r="12" fill="#3b82f6"/>
+  <circle cx="420" cy="420" r="10" fill="#8b5cf6"/>
+  <circle cx="180" cy="420" r="10" fill="#ec4899"/>
+  <circle cx="420" cy="180" r="10" fill="#14b8a6"/>
+  <circle cx="180" cy="180" r="10" fill="#eab308"/>
+
+  <!-- Satellite -->
+  <rect x="270" y="285" width="60" height="30" fill="#374151" rx="4"/>
+  <rect x="240" y="275" width="20" height="50" fill="#6b7280" rx="3"/>
+  <rect x="340" y="275" width="20" height="50" fill="#6b7280" rx="3"/>
+  <!-- Signal Waves -->
+  <path d="M330 250 q20 20 0 40" stroke="#0ea5e9" stroke-width="4" fill="none"/>
+  <path d="M340 240 q30 30 0 60" stroke="#0ea5e9" stroke-width="3" fill="none"/>
+
+  <!-- Company Name -->
+  <text x="50%" y="560" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="40" fill="#0ea5e9" font-weight="bold" letter-spacing="1">
+    Gwengtar Technology
+  </text>
+</svg>
