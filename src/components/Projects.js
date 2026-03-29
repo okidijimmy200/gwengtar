@@ -91,7 +91,7 @@ const Projects = () => {
   ];
 
   return (
-    <section 
+    <section id="services"
       style={{ backgroundColor: lightBg }} 
       className="relative py-24 shadow-[inner_0_10px_20px_rgba(0,0,0,0.02)]"
     >

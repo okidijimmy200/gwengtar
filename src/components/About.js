@@ -8,7 +8,7 @@ const About = () => {
 
   return (
     <div className="w-full">
-      <section 
+      <section id="about"
         style={{ backgroundColor: lightBg }} 
         className="relative py-24 transition-colors duration-300"
       >

@@ -5,6 +5,7 @@ const Footer = () => {
   const darkBg = '#1e293b'; // A deeper version of the slate for the footer background
 
   return (
+    <section id="contact">
     <footer style={{ backgroundColor: darkBg }} className="text-gray-300 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
@@ -80,6 +81,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+    </section>
   );
 };
 

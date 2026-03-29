@@ -7,7 +7,7 @@ const Objectives = () => {
 
   return (
     <div className="w-full">
-      <section 
+      <section id="objectives"
         style={{ backgroundColor: lightBg }} 
         className="relative pt-20 pb-32 transition-colors duration-300"
       >

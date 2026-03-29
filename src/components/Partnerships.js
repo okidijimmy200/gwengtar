@@ -16,7 +16,7 @@ const Partnerships = () => {
   ];
 
   return (
-    <section className="py-20 bg-gray-50 border-t border-gray-100">
+    <section className="py-20 bg-gray-50 border-t border-gray-100" id='partners'>
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
           <p className="text-[10px] font-bold uppercase tracking-[0.3em] mb-3" style={{ color: faintGold }}>
