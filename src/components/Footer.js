@@ -74,8 +74,8 @@ const Footer = () => {
             © {new Date().getFullYear()} Gwengtar Technologies Limited. All rights reserved.
           </p>
           <div className="flex space-x-6 text-xs text-gray-500">
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+            <button className="hover:text-white transition-colors">Privacy Policy</button>
+            <button className="hover:text-white transition-colors">Terms of Service</button>
             <span style={{ color: faintGold }}>Infinite Innovations 24</span>
           </div>
         </div>

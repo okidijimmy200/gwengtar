@@ -57,17 +57,17 @@ const handleScroll = (id) => {
           {/* 🔥 Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8 text-[16px] font-medium text-gray-700">
 
-            <a  onClick={() => handleScroll("about")} className="hover:text-blue-600 transition cursor-pointer">
+            <button  onClick={() => handleScroll("about")} className="hover:text-blue-600 transition cursor-pointer">
               About Us
-            </a>
+            </button>
 
-            <a  onClick={() => handleScroll("services")} className="hover:text-blue-600 transition cursor-pointer">
+            <button  onClick={() => handleScroll("services")} className="hover:text-blue-600 transition cursor-pointer">
               Services
-            </a>
+            </button>
 
-            <a  onClick={() => handleScroll("contact")} className="hover:text-blue-600 transition cursor-pointer">
+            <button  onClick={() => handleScroll("contact")} className="hover:text-blue-600 transition cursor-pointer">
               Contacts
-            </a>
+            </button>
 
             <div className="relative" ref={dropdownRef}>
               <button
