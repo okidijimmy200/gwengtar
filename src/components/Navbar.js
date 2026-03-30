@@ -79,21 +79,21 @@ const handleScroll = (id) => {
 
               {dropdown && (
                 <div className="absolute right-0 mt-3 w-56 bg-white shadow-lg rounded-md py-2 z-50">
-                  <a onClick={() => handleScroll("objectives")} className="block px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                  <button onClick={() => handleScroll("objectives")} className="block px-4 py-2 hover:bg-gray-100 cursor-pointer">
                     Our Cores
-                  </a>
-                  <a onClick={() => handleScroll("completed")} className="block px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                  </button>
+                  <button onClick={() => handleScroll("completed")} className="block px-4 py-2 hover:bg-gray-100 cursor-pointer">
                     Completed Projects
-                  </a>
-                                    <a onClick={() => handleScroll("tools")} className="block px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                  </button>
+                  <button onClick={() => handleScroll("tools")} className="block px-4 py-2 hover:bg-gray-100 cursor-pointer">
                     Tools
-                  </a>
-                                    <a onClick={() => handleScroll("partners")} className="block px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                  </button>
+                  <button onClick={() => handleScroll("partners")} className="block px-4 py-2 hover:bg-gray-100 cursor-pointer">
                     Partners
-                  </a>
-                                    <a onClick={() => handleScroll("esg")} className="block px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                  </button>
+                  <button onClick={() => handleScroll("esg")} className="block px-4 py-2 hover:bg-gray-100 cursor-pointer">
                     ESG
-                  </a>
+                  </button>
                 </div>
               )}
             </div>
@@ -113,15 +113,25 @@ const handleScroll = (id) => {
       {isOpen && (
         <div className="md:hidden bg-white shadow-md px-6 py-4 space-y-4 text-gray-700 font-medium">
 
-          <a onClick={() => handleScroll("objectives")} className="block">About Us</a>
-          <a onClick={() => handleScroll("services")} className="block">Services</a>
-          <a onClick={() => handleScroll("contact")} className="block">Contacts</a>
+          <button onClick={() => handleScroll("objectives")} className="block">
+            About Us
+          </button>
+          <button onClick={() => handleScroll("services")} className="block">
+            Services
+          </button>
+          <button onClick={() => handleScroll("contact")} className="block">
+            Contacts
+          </button>
 
           {/* Mobile Dropdown simplified */}
           <div className="border-t pt-3">
             <p className="text-gray-500 text-sm mb-2">More</p>
-            <a onClick={() => handleScroll("objectives")} className="block py-1">Our Objectives</a>
-            <a onClick={() => handleScroll("completed")} className="block py-1">Completed Projects</a>
+            <button onClick={() => handleScroll("objectives")} className="block py-1">
+              Our Objectives
+            </button>
+            <button onClick={() => handleScroll("completed")} className="block py-1">
+              Completed Projects
+            </button>
           </div>
         </div>
       )}
