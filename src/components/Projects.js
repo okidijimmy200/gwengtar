@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import img1 from '../assets/gwengtar-dp.jpg';
 import img2 from '../assets/Installing power.png';
-import img3 from '../assets/Electrical transformer.png';
-import img4 from '../assets/overhead-line-refurbishment-national-grid-2.jpg';
+import img3 from '../assets/Industrial electrical setups side by side.png';
+import img5 from '../assets/Power Grid.jpeg';
+import img6 from '../assets/Pole.jpeg'
 
 const Projects = () => {
   const [activeProject, setActiveProject] = useState(null);
@@ -40,10 +41,10 @@ const Projects = () => {
       ]
     },
     { 
-      title: 'Grid Powerline Construction', 
-      desc: 'Installation and alignment of electric poles with safety and compliance.',
+      title: 'Transmission Line Construction', 
+      desc: 'Construction of a 220kV Tee-off to Industrial Park Substation Kabaale Nyamasoga - Hoima district.',
       category: 'Energy',
-      img: img4,
+      img: img6,
       details: [
         "Safe installation and alignment of high-tension utility poles.",
         "Compliance with national safety and infrastructure standards.",

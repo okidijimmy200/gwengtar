@@ -78,20 +78,35 @@ const handleScroll = (id) => {
               </button>
 
               {dropdown && (
-                <div className="absolute right-0 mt-3 w-56 bg-white shadow-lg rounded-md py-2 z-50">
-                  <button onClick={() => handleScroll("objectives")} className="block px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                <div className="absolute right-0 mt-3 w-56 bg-white shadow-lg rounded-md py-2 z-50 border border-gray-100">
+                  <button 
+                    onClick={() => handleScroll("objectives")} 
+                    className="block w-full text-left px-4 py-2 hover:bg-gray-100 cursor-pointer transition-colors"
+                  >
                     Our Cores
                   </button>
-                  <button onClick={() => handleScroll("completed")} className="block px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                  <button 
+                    onClick={() => handleScroll("completed")} 
+                    className="block w-full text-left px-4 py-2 hover:bg-gray-100 cursor-pointer transition-colors"
+                  >
                     Completed Projects
                   </button>
-                  <button onClick={() => handleScroll("tools")} className="block px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                  <button 
+                    onClick={() => handleScroll("tools")} 
+                    className="block w-full text-left px-4 py-2 hover:bg-gray-100 cursor-pointer transition-colors"
+                  >
                     Tools
                   </button>
-                  <button onClick={() => handleScroll("partners")} className="block px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                  <button 
+                    onClick={() => handleScroll("partners")} 
+                    className="block w-full text-left px-4 py-2 hover:bg-gray-100 cursor-pointer transition-colors"
+                  >
                     Partners
                   </button>
-                  <button onClick={() => handleScroll("esg")} className="block px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                  <button 
+                    onClick={() => handleScroll("esg")} 
+                    className="block w-full text-left px-4 py-2 hover:bg-gray-100 cursor-pointer transition-colors"
+                  >
                     ESG
                   </button>
                 </div>

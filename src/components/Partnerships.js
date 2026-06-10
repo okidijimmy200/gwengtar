@@ -2,6 +2,7 @@ import React from 'react';
 import img1 from '../assets/Logos/UTECL.png';
 import img2 from '../assets/Logos/MENM.png';
 import img3 from '../assets/Logos/UPF.png';
+import img4 from '../assets/Logos/UNEB-EMBLEM-COLOUR.png';
 
 const Partnerships = () => {
   const softSlate = '#475569';
@@ -12,7 +13,7 @@ const Partnerships = () => {
     { name: "UETCL", role: "Transmission Partner", logo: img1 },
     { name: "MEMD", role: "Ministry of Energy", logo: img2 },
     { name: "UPF", role: "Uganda Police Force", logo: img3 }, // Uncomment if you want to include REP
-    { name: "UNEB", role: "UNEB", logo: "	https://uneb.ac.ug/wp-content/uploads/2021/05/UNEB-EMBLEM-COLOUR.png" }
+    { name: "UNEB", role: "UNEB", logo: img4 }
   ];
 
   return (

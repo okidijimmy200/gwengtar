@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 
-import img1 from "../assets/hero.jpeg";
-import img2 from "../assets/gwengtar-dp.jpg";
-import img3 from "../assets/img2.jpeg";
+import img3 from "../assets/img11.jpeg";
+import img1 from "../assets/gwengtar-dp.jpg";
+import img2 from "../assets/img2.jpeg";
+import img4 from "../assets/dp-1.jpeg"
 
 const slides = [
   {
-    image: img1,
-    title: "Infinite Innovations",
-    subtitle: "Getting It Right First Time, Every Time",
+    image: img4,
+    title: "220kV/133kV transmission line construction",
   },
   {
     image: img2,
@@ -17,8 +17,7 @@ const slides = [
   },
   {
     image: img3,
-    title: "Engineering the Future",
-    subtitle: "Smart Solutions for Modern Systems",
+    title: "Power line survey and route mapping",
   },
 ];
 
