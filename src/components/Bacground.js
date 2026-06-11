@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 
 import img3 from "../assets/img11.jpeg";
-import img1 from "../assets/gwengtar-dp.jpg";
 import img2 from "../assets/img2.jpeg";
 import img4 from "../assets/dp-1.jpeg"
 

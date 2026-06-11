@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import img1 from '../assets/gwengtar-dp.jpg';
 import img2 from '../assets/Installing power.png';
 import img3 from '../assets/Industrial electrical setups side by side.png';
-import img5 from '../assets/Power Grid.jpeg';
 import img6 from '../assets/Pole.jpeg'
 
 const Projects = () => {
